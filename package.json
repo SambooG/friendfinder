@@ -1,0 +1,23 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "friend match app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SambooG/friendfinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SambooG/friendfinder/issues"
+  },
+  "homepage": "https://github.com/SambooG/friendfinder#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
