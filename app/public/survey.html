@@ -14,12 +14,12 @@
     <form>
         <div class="form-group">
           <label for="name">Name(Required)</label>
-          <input type="email" class="form-control" id="name" placeholder="name@example.com">
+          <input type="email" class="form-control" id="name" placeholder="Your name here">
         </div>
 
         <div class="form-group">
-            <label for="photo">You like to share.</label>
-            <input type="email" class="form-control" id="photo" placeholder="name@example.com">
+            <label for="photo">Your photo.</label>
+            <input type="email" class="form-control" id="photo" placeholder="Your image link here">
           </div>
 
         <div class="form-group">
@@ -135,7 +135,16 @@
       </form>
       <a href = #>Friend list</a> <a href = #>github repo</a>
       <script type="text/javascript" src="./submission.js">
+
+const newFriend = result;
+("body").append(`<div>Name: ${newFriend.name} </div> <img src={newFriend.image} />`);
+
+        
+        
       </script>
+      <a href="/api/friends.">Friends list</a>/>
     </div>
+    
+   
     </body>
 </html>

@@ -41,7 +41,8 @@ function calculateDifference(arrayOne, arrayTwo){
      })
      return newFriend;
     }
-    // $(".friendResults").append(<p>newFriend<p>);
+
+    
 
 
 app.get('*', (req, res) => res.sendFile(path.join(__dirname + "/public/home.html")));
