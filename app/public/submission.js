@@ -21,7 +21,7 @@ function submitData(){
         success: function(result) {
             const newFriend = result;
             console.log("success!!:", result);
-            $("body").append(`<div>Name: ${newFriend.name} </div> <img src=${newFriend.image} />`);
+            $("body").append(`<div class = "new-friend">Name: ${newFriend.name} </div> <img src=${newFriend.image} />`);
       }
     });
 }
