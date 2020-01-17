@@ -49,7 +49,7 @@ module.exports = [{
 
 {
     "name": 'Uncle Rico',
-    "photo": 'none',
+    "photo": 'https://media.defense.gov/2006/Aug/15/2000545648/670/394/0/060815-F-JZ506-372.JPG',
     "scores":[
         "1",
         "1",

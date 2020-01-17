@@ -19,10 +19,14 @@ function submitData(){
         url: "/api/friends",
         data: submission,
         success: function(result) {
-          console.log("success!!:", result);
+            const newFriend = result;
+            console.log("success!!:", result);
+            $("body").append(`<div>Name: ${newFriend.name} </div> <img src=${newFriend.image} />`);
       }
-    })
+    });
 }
+
+// `<div>Name: ${newFriend.name} </div> <img src={newFriend.image} />`
 
 
 $("#submit").click(function() {
